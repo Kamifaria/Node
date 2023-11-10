@@ -1,0 +1,39 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+
+ "title": " foda0se  ",
+ "description": "videos primeiro ",
+ "duration": 180 
+
+ 
+
+
+}  
+
+###
+
+GET http://localhost:3333/videos?search=
+
+###
+
+PUT  http://localhost:3333/videos/0d2033ef-06fd-45a7-abf1-b65b58c20c53
+Content-Type: application/json
+
+{
+ "title": "fazendo pardos",
+ "description": "videos primeirsdsdfsdfdsf ",
+ "duration": 180 
+
+ 
+
+
+}  
+
+
+###
+
+DELETE http://localhost:3333/videos/89bdd634-4203-47d1-a868-63dd05b44b03
+
+ 
